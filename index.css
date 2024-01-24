@@ -37,8 +37,7 @@ h1,p {
 	margin: 0;
 	min-width: 970px;
 	padding: 0 10px;
-	margin-left: 248px;
-	margin-right: 248px;
+
 }
 
 .header {
@@ -117,10 +116,6 @@ h1,p {
 		object-fit: cover;
 	}
 	@media (max-width: 480px) {
-		.container {
-			margin: 0 30px 0 30px;
-		}
-		
 		.header {
 			display: none;
 		}
@@ -137,10 +132,9 @@ h1,p {
 			margin: 0 0 28px 0;
 			font-size: 14px;
 			}
-			.home-img  {
+			.home-img {
 				width: 315px;
         height: 490px;
-			margin: 0 30px 0 30px;
 			}
-	}
+			}
 	
