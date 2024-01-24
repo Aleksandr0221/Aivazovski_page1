@@ -15,7 +15,7 @@ body {
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
 	background-color: var(--bg-main);
-	width: 1445px;
+
 }
 
 ul {
@@ -116,6 +116,10 @@ h1,p {
 		object-fit: cover;
 	}
 	@media (max-width: 480px) {
+		.container {
+			min-width: 389px;
+		}
+		
 		.header {
 			display: none;
 		}
