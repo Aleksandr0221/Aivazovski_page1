@@ -152,7 +152,8 @@ p {
 .about-description-en {
 	font-size: 18px;
 	font-weight: 500;
-	margin: 0 0 15px 0;
+	margin: 0 0 15px 0px;
+
 }
 
 .divader {
@@ -216,13 +217,13 @@ p {
 	}
 
 	.home-img {
-		width: 400px;
+		width: 350px;
 		height: 490px;
 		margin-left: 20px;
 	}
 
 .about  {
-	min-width: 460px;
+	min-width: 415px;
 }
 
 	.about-subtitle-ru,
@@ -241,7 +242,7 @@ p {
 }
 
 	.history-photo {
-		width: 400px;
+		width: 350px;
 		margin-left: 20px;
 		margin-top: 60px;
 		
