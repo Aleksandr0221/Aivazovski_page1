@@ -305,7 +305,7 @@ font-weight: 500;
 	translate: 100% 0;
 	transition: all .33s;
 	background-color: var(--bg-main);
-	padding: 55px 20px ;
+	padding: 55px 20px 500px;
 	
 }
 
@@ -344,9 +344,9 @@ font-weight: 500;
 
 
 @media (max-width: 480px) {
-	html {
-		width: 480px;
-	}
+html {
+	width: 480px;
+}
 	.mobile-navigation {
 		display: block;
 	}
