@@ -33,7 +33,8 @@ a {
 	color: unset;
 }
 
-h1,h2,
+h1,
+h2,
 p {
 	margin: 0;
 }
@@ -131,7 +132,7 @@ p {
 	text-align: center;
 	color: var(--color-main-black);
 	min-width: 970px;
-	
+
 
 }
 
@@ -178,7 +179,7 @@ p {
 .history-title {
 	font-size: 34px;
 	font-weight: 700;
-	
+
 }
 
 .history-photo {
@@ -219,6 +220,62 @@ p {
 	font-weight: 500;
 }
 
+.contacts {
+	padding: 55px 20px 62px;
+	text-align: center;
+}
+
+.contacts-title {
+	font-size: 34px;
+	font-weight: 700;
+	color: var(--color-main-black);
+}
+
+.contacts-button {
+	width: 211px;
+	height: 41px;
+	border-radius: 21px;
+	border: none;
+	background-color: var(--color-main-black);
+	margin: 74px 0 38px;
+
+}
+
+.button-link {
+	color: var(--bg-main);
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	gap: 30px;
+}
+
+.social-icon {
+	width: 65px;
+	height: 65px;
+	color: var(--color-main-black);
+}
+
+.contacts-info {
+margin: 30px auto 0;
+color: var(--font-color-grey);
+width: 260px;
+font-size: 16px;
+font-weight: 500;
+}
+
+.contacts-button:hover {
+	opacity: 0.8;
+}
+
+.social-icon:hover {
+	fill: chocolate;
+}
 
 @media (max-width: 480px) {
 	.container {
@@ -250,9 +307,9 @@ p {
 		margin-left: 20px;
 	}
 
-.about  {
-	min-width: 415px;
-}
+	.about {
+		min-width: 415px;
+	}
 
 	.about-subtitle-ru,
 	.about-subtitle-en,
@@ -261,33 +318,55 @@ p {
 		font-size: 14px;
 	}
 
-.history-title {
-	margin-left: 10px;
-}
+	.history-title {
+		margin-left: 10px;
+	}
 
-.history {
-	padding-top: 50px;
-}
+	.history {
+		padding-top: 50px;
+	}
 
 	.history-photo {
 		width: 350px;
 		margin-left: 20px;
 		margin-top: 60px;
-		
+
 	}
+
 	.history-description {
 		margin-left: 30px;
 		font-size: 14px;
 	}
+
 	.portfolio {
 		padding: 41px 0 50px;
 		min-width: 415px;
 	}
+
 	.portfolio-picture {
 		margin: 50px 0 30px;
 	}
+
 	.portfolio-description {
 		font-size: 14px;
 	}
-	
+
+	.contacts {
+		padding: 60px 20px 125px ;
+	}
+
+.socials {
+	gap: 20px;
+}
+
+.social-icon {
+	width: 55px;
+	height: 55px;
+}
+
+.contacts-info {
+	font-size: 14px;
+	margin-top: 40px;
+}
+
 }
