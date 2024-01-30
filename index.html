@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="icon" href="assets/favicon.png" type="image/png">
 	<link rel="stylesheet" href="index.css">
-	<title>Aivazovski</title>
+	<title>Aivazovsky</title>
 </head>
 <body>
 	<header class="header" aria-label="header">
@@ -34,12 +34,47 @@
 			</nav>
 		</div>
 	</header>
+
+		<div class="mobile-navigation" aria-label="mobile navigation">
+			<label for="toggler-id" aria-label="open-close mobile-navigation menu">
+				<svg class="mobile-navigation-burger" aria-label="burger icon">
+					<use href="./assets/webp/spriters.svg#burger-icon"></use>
+				</svg>
+			</label>
+			<input type="checkbox" id="toggler-id" class="mobile-navigation-toggler">
+
+			<nav class="mobile-navigation-menu" aria-label="mob header navigation">
+				<ul class="mobile-navigation-list" aria-label="mob header navigation list">
+					<li>
+						<a href="#home-id" class="mobile-navigation-link" aria-label="link to home">Home</a>
+					</li>
+					<li>
+						<a href="#about-id" class="mobile-navigation-link" aria-label="link to about">About</a>
+					</li>
+					<li>
+						<a href="#history-id" class="mobile-navigation-link" aria-label="link to history">History</a>
+					</li>
+					<li>
+						<a href="#portfolio-id" class="mobile-navigation-link" aria-label="link to portfolio">Portfolio</a>
+					</li>
+					<li>
+						<a href="#contacts-id" class="mobile-navigation-link" aria-label="link to Contacts">Contacts</a>
+					</li>
+				</ul>
+				<label for="toggler-id" class="mobile-navigation-close" aria-label="open-close mobile-navigation menu">
+					<svg class="mobile-navigation-cross" aria-label="cross icon">
+						<use href="./assets/webp/spriters.svg#cross-icon"></use>
+					</svg>
+				</label>
+			</nav>
+		</div>
+
 	<main aria-label="main">
 		<section class="home" aria-label="home section" id="home-id">
 			<div class="container">
 				<h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
-				<p class="home-description" aria-label="drscription">Russian marine painter of Armenian origin, collector, philanthropist</p>
-				<img src="./assets/webp/home (1).webp" alt="photo of Aivazovski" class="home-img">
+				<p class="home-description" aria-label="description">Russian marine painter of Armenian origin, collector, philanthropist</p>
+				<img src="./assets/webp/home (1).webp" alt="photo of Aivazovsky" class="home-img">
 			</div>
 		</section>
 		<section class="about" aria-label="about section" id="about-id">
@@ -74,6 +109,7 @@
 	<footer class="contacts" aria-label="contacts section" id="contacts-id">
 			<div class="container">
 				<h2 class="contacts-title">Contacts</h2>
+				
 				<button class="contacts-button">
 					<a href="http://ivanaivazovsky.life/" class="button-link" target="_blank">ivanaivazovsky.life</a>
 				</button>
